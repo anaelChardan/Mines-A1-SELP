@@ -1,0 +1,12 @@
+(define (add7 n)
+    (= c (add4 n))
+    (= c (add3 c))
+    c
+)
+(define (add4 n)
+    (+ n 4)
+)
+(define (add3 n)
+    (+ n 3)
+)
+(add7 0)

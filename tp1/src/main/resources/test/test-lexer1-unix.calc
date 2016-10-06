@@ -1,0 +1,6 @@
+( = )(define (fibonacci n)
+   (= fib1 (- n 1))
+   (= fib2 (- n 2))
+)
+
+
